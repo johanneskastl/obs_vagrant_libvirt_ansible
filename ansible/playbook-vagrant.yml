@@ -11,3 +11,6 @@
 
 - name: 'Run playbook-all_nodes-minimal_tmux_configuration.yml'
   ansible.builtin.import_playbook: playbook-all_nodes-minimal_tmux_configuration.yml
+
+- name: 'Run playbook-obs_server.yml'
+  ansible.builtin.import_playbook: playbook-obs_server.yml
