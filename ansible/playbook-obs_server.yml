@@ -1,0 +1,15 @@
+---
+
+- name: 'OBS Server installation'
+  hosts: 'all'
+  gather_facts: true
+  become: true
+  vars:
+    mysql_root_password: 'obs-vagrant-libvirt'
+    mysql_obs_username: 'obs'
+    mysql_obs_password: 'totallysecretpasswort,no,really...'
+
+  roles:
+
+    - name: 'Run obs_server role'
+      role: 'johanneskastl.obs_server'
