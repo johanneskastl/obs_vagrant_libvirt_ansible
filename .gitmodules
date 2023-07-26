@@ -31,3 +31,6 @@
 [submodule "ansible/roles/johanneskastl.obs_server"]
 	path = ansible/roles/johanneskastl.obs_server
 	url = https://github.com/johanneskastl/ansible-role-obs_server
+[submodule "ansible/roles/johanneskastl.set_hostname"]
+	path = ansible/roles/johanneskastl.set_hostname
+	url = https://github.com/johanneskastl/ansible-role-set_hostname
