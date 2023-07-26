@@ -28,3 +28,6 @@
 [submodule "ansible/roles/b1-systems-ansible-role-suseconnect"]
 	path = ansible/roles/b1-systems-ansible-role-suseconnect
 	url = https://github.com/b1-systems/ansible-role-suseconnect.git
+[submodule "ansible/roles/johanneskastl.obs_server"]
+	path = ansible/roles/johanneskastl.obs_server
+	url = https://github.com/johanneskastl/ansible-role-obs_server
