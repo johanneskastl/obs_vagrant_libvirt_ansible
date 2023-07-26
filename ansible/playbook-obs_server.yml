@@ -7,7 +7,7 @@
   vars:
     mysql_root_password: 'obs-vagrant-libvirt'
     mysql_obs_username: 'obs'
-    mysql_obs_password: 'totallysecretpasswort,no,really...'
+    mysql_obs_password: 'totallysecretpasswortnoreally'
 
   roles:
 
