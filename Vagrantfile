@@ -1,10 +1,10 @@
 Vagrant.configure("2") do |config|
 
   # name the VMs
-  config.vm.define "obs-server-153" do |node|
+  config.vm.define "obs-server-154" do |node|
 
     # which image to use
-    node.vm.box = "opensuse/Leap-15.3.x86_64"
+    node.vm.box = "opensuse/Leap-15.4.x86_64"
 
     # disable synced folders
     node.vm.synced_folder ".", "/vagrant", disabled: true
@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
     end
 
     # set the hostname
-    node.vm.hostname = "obs-server-153"
+    node.vm.hostname = "obs-server-154"
 
     # disable shared folders
     node.vm.synced_folder ".", "/vagrant", disabled: true
