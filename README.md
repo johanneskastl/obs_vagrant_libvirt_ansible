@@ -20,10 +20,9 @@ There is a branch that uses 15.4 as the base OS, if you are willing to try out.
 1. Find out the obs-server-153 VM's IP (e.g. `vagrant address obs-server-153`,
    if you have vagrant address installed) and connect to `http://IP:80`. You
    should get the overview page.
-1. Add the IP and the hostname `obs-server-153` to your `/etc/hosts`, then you
-   can connect to the repos (HTTP on port 82) and the WebUI (HTTPS on port 443).
-   You will need to make an exception for the self-signed TLS certificate used
-   by default.
+1. You can connect to the repos (HTTP on port 82) and the WebUI (HTTPS on port
+   443).  You will need to make an exception for the self-signed TLS certificate
+   used by default.
 1. Follow the
    [documentation](https://openbuildservice.org/help/manuals/obs-admin-guide/obs.cha.installation_and_configuration.html#_online_configuration)
 1. Party!
